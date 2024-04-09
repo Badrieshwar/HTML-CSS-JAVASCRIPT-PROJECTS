@@ -1,7 +1,7 @@
 # HTML-CSS-JAVASCRIPT-PROJECTS
 A 30 days JavaScript challenge hosted in Netlify
 
-### Project
+### Projects
  ---
  |SI NO| Name | Netlify URL       | TimeLine |
  |-------|---------|---------|---------|
