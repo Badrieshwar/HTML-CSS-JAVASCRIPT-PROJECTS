@@ -11,3 +11,4 @@ A 30 days JavaScript challenge hosted in Netlify
  |4| Random-Password-Generator-app | [Random-Password-Generator-app](https://random-password-generator-appy.netlify.app/) | 13-04-2024 |
  |5| Notes-app | [Notes-app](https://notes-applicationnn.netlify.app/) | 13-04-2024-14-04-2024 |
  |6| Age-Calculator-app | [Age-Calculator-app](https://age-calculator-applicationn.netlify.app/) | 14-04-2024 |
+ |7| Currency-Converter-app | [Currency-Converter-app](https://currency-converter-applicationn.netlify.app/) | 15-04-2024 |
