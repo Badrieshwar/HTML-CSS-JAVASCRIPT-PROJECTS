@@ -14,3 +14,4 @@ A 30 days JavaScript challenge hosted in Netlify
  |7| Currency-Converter-app | [Currency-Converter-app](https://currency-converter-applicationn.netlify.app/) | 15-04-2024 |
  |8| QR-Code-Generator-app | [QR-Code-Generator-app](https://qr-code-generator-applicationn.netlify.app/) | 15-04-2024 |
  |9| Quote-Generator-app | [Quote-Generator-app](https://quote-generator-applicationn.netlify.app/) | 16-04-2024 |
+ |10| Snack-Bar-app | [Snack-Bar-app](https://snack-bar-applicationn.netlify.app/) | 16-04-2024 |
