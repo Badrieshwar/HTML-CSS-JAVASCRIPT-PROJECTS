@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure ;   
+}
+.buttons{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.buttons button{
+    border: 0;
+    outline: 0;
+    width: 110px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#toastBoxes{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+.toastBox{
+    width: 400px;
+    height: 80px;
+    background-color: #fff;
+    padding: 10px;
+    font-weight: 500;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    align-items:center ;
+    position: relative;
+    transform: translateX(100%);
+    animation: moveleft 0.3s linear forwards;
+}
+@keyframes moveleft {
+    100%{
+        transform: translateX(0);
+    }
+    0%{
+        transform: translateX(100%);
+    }
+}
+.toastBox i{
+    margin: 0 20px;
+    font-size: 35px;
+}
+.toastBox1 i{
+    color: green;
+}
+.toastBox2 i{
+    color: red;
+}
+.toastBox3 i{
+    color: orange;
+}
+.toastBox::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    animation: anime 5s linear forwards;
+}
+.toastBox1::after{
+    background-color: green;
+}
+.toastBox2::after{
+    background-color:red;
+}
+.toastBox3::after{
+    background-color: orange;
+}
+@keyframes anime{
+    100%{
+        width: 0;
+    }
+    0%{
+        width: 100%;
+    }
+}
