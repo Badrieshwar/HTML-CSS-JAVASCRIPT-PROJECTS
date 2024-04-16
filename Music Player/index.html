@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="music-player">
+        <div class="nav">
+            <i class="fa-solid fa-angle-left"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <img src="Bekhayali.png" alt="Bekhayali-song" class="song-img">
+        <h1>Bekhayali</h1>
+        <p>Song by Sachet Tandon</p>
+        <audio id="song">
+            <source src="Bekhayali - Kabir Singh 320 Kbps.mp3" type="audio/mpeg">
+        </audio>
+        <input type="range" value="0" id="progress">
+        <div class="controls">
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-play" id="play-pause"></i>
+            <i class="fa-solid fa-forward"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
