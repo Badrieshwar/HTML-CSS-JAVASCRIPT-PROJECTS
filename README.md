@@ -16,3 +16,4 @@ A 30 days JavaScript challenge hosted in Netlify
  |9| Quote-Generator-app | [Quote-Generator-app](https://quote-generator-applicationn.netlify.app/) | 16-04-2024 |
  |10| Snack-Bar-app | [Snack-Bar-app](https://snack-bar-applicationn.netlify.app/) | 16-04-2024 |
  |11| Music-Player-app | [Music-Player-app](https://music-player-applicationn.netlify.app/) | 17-04-2024 |
+ |12| Stop-Watch-app | [Stop-Watch-app](https://stop-watch-applicationn.netlify.app/) | 17-04-2024 |
