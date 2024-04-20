@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dff7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.calculator{
+    background-color: #2D4356;
+    padding: 20px;
+    border-radius: 10px;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    width: 285px;
+    height: 60px;
+    text-align: end;
+    font-size: 36px;
+    color: #dff7ff;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #2D4356;
+    overflow-x: auto;
+}
+
+.grid{
+    display: grid;
+    gap: 8px;
+    grid-template-areas: 
+                           "I1 I2 I3 I4"
+                           "I5 I6 I7 I8"
+                           "I9 I10 I11 I12"
+                           "I13 I14 I15 I16"
+                           "I17 I18 I19 I19" ;
+}
+.input-box{
+    border: 0;
+    outline: 0;
+    width: 64px;
+    height: 64px;
+    background-color: #2D4356;
+    color:#dff7ff;
+    font-size: 25px;
+    background: transparent;
+    text-align: center;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#input-1{
+    grid-area: I1;
+    color: #33ffd8;
+}
+#input-2{
+    grid-area: I2;
+    color: #33ffd8;
+}
+#input-3{
+    grid-area: I3;
+    color: #33ffd8;
+}
+#input-4{
+    grid-area: I4;
+    color: #33ffd8;
+}
+#input-5{
+    grid-area: I5;
+}
+#nput-6{
+    grid-area: I6;
+}
+#input-7{
+    grid-area: I7;
+}
+#input-8{
+    grid-area: I8;
+    color: #33ffd8;
+}
+#input-9{
+    grid-area: I9;
+}
+#input-10{
+    grid-area: I10;
+}
+#input-11{
+    grid-area: I11;
+}
+#input-12{
+    grid-area: I12;
+    color: #33ffd8;
+}
+#input-13{
+    grid-area: I13;
+}
+#input-14{
+    grid-area: I14;
+}
+#input-15{
+    grid-area: I15;
+}
+#input-16{
+    grid-area: I16;
+    color: #33ffd8;
+}
+#input-17{
+    grid-area: I17;
+}
+#input-18{
+    grid-area: I18;
+}
+#input-19{
+    width: 140px;
+    grid-area: I19;
+    color: #33ffd8;
+}
+

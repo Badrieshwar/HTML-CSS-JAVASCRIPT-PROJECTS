@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <form>
+            <div class="display">
+                <input type="text" name="display">
+            </div>
+            <div class="grid">
+                <input type="button" value="AC"  id="input-1" class="input-box">
+                <input type="button" value="DE" id="input-2" class="input-box">
+                <input type="button" value="." id="input-3" class="input-box">
+                <input type="button" value="/" id="input-4" class="input-box">
+                <input type="button" value="7" id="input-5" class="input-box"  onclick="display.value+='7' ">
+                <input type="button" value="8" id="input-6" class="input-box"  onclick="display.value+='8' ">
+                <input type="button" value="9" id="input-7" class="input-box"  onclick="display.value+='9' ">
+                <input type="button" value="*" id="input-8" class="input-box">
+                <input type="button" value="4" id="input-9" class="input-box" onclick="display.value+='4'">
+                <input type="button" value="5" id="input-10" class="input-box" onclick="display.value+='5'">
+                <input type="button" value="6" id="input-11" class="input-box" onclick="display.value+='6'">
+                <input type="button" value="-" id="input-12" class="input-box">
+                <input type="button" value="1" id="input-13" class="input-box" onclick="display.value+='1'">
+                <input type="button" value="2" id="input-14" class="input-box" onclick="display.value+='2'">
+                <input type="button" value="3" id="input-15" class="input-box" onclick="display.value+='3'">
+                <input type="button" value="+" id="input-16" class="input-box">
+                <input type="button" value="00" id="input-17" class="input-box" onclick="display.value+='00'">
+                <input type="button" value="0" id="input-18" class="input-box" onclick="display.value+='0'">
+                <input type="button" value="=" id="input-19" class="input-box" >
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
