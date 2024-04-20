@@ -17,3 +17,4 @@ A 30 days JavaScript challenge hosted in Netlify
  |10| Snack-Bar-app | [Snack-Bar-app](https://snack-bar-applicationn.netlify.app/) | 16-04-2024 |
  |11| Music-Player-app | [Music-Player-app](https://music-player-applicationn.netlify.app/) | 17-04-2024 |
  |12| Stop-Watch-app | [Stop-Watch-app](https://stop-watch-applicationn.netlify.app/) | 18-04-2024 |
+ |13| Calculator-app | [Calculator-app](https://calculator-applicationn.netlify.app/) | 20-04-2024 |
